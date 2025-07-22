@@ -1,4 +1,3 @@
-````markdown
 # Real-time Finger Counter with MediaPipe
 
 This project implements a real-time finger counter using OpenCV and Google's MediaPipe library. It detects hands from a live webcam feed, identifies finger landmarks, counts the number of fingers extended, and overlays a corresponding image (e.g., an icon representing the count) onto the video stream. It supports counting fingers from **up to two hands**, allowing for counts up to 10.
@@ -102,5 +101,3 @@ Finger_Counter/
     * Verify `finger_images` folder exists.
     * Confirm images are named `0.png`, `1.png`, etc., correctly.
     * Check if `totalFingersUp` is going beyond the number of images you have (e.g., if you only have `0.png` to `5.png` but `totalFingersUp` becomes 6). The code handles this by printing a warning.
-
-````
