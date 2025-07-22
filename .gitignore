@@ -1,0 +1,15 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyd
+*.egg-info/
+.Python/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv_finger_counter/ # If you used a virtual environment named this
+
+# Operating System files
+.DS_Store
+Thumbs.db
+.vscode/ # If you use VS Code and don't want to track its settings
