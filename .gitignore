@@ -1,15 +1,53 @@
-# Python specific
+# Python
 __pycache__/
 *.pyc
+*.pyo
 *.pyd
-*.egg-info/
-.Python/
-.pytest_cache/
-.mypy_cache/
-.venv/
-venv_finger_counter/ # If you used a virtual environment named this
+.Python
+env/
+venv/
+myvenv/  
 
-# Operating System files
-.DS_Store
-Thumbs.db
-.vscode/ # If you use VS Code and don't want to track its settings
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.flaskenv
+
+# Editor/IDE specific files
+.idea/             
+.vscode/           
+*.sublime-project
+*.sublime-workspace
+*.DS_Store        
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite3
+
+# MediaPipe specific (if any cached models or temporary files are generated)
+# You might need to add specific paths if MediaPipe creates large temporary files
+# For example:
+# .mediapipe_cache/
+
+# OpenCV specific (if any temporary files are generated)
+# For example:
+# *.avi
+# *.mp4
+# *.mov
+
+# Operating System Files
+Thumbs.db         
